@@ -19,7 +19,7 @@ LG = dict(sf_ev=29.0, sf_pp=50.0, sa_ev=29.0, sa_pk=50.0,
 # Shrinkage strength: higher = trust the league average longer.
 K = dict(sf_ev=10, sf_pp=25, sa_ev=10, sa_pk=25,
          pp_min=20, sh_min=20, sf_pg=10)
-W_LAST5 = 0.30      # weight on last-5 vs season
+W_LAST5 = 0.15      # weight on last-5 vs season (backtest: more recent-form weight did slightly worse)
 HOME_BOOST = 1.02   # home teams shoot slightly more
 TREND_BAND = 0.10   # +/-10% vs season counts as up/down
 LINES = (1, 2, 3, 4, 5)
