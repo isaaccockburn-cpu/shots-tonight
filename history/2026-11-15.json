@@ -1,0 +1,2516 @@
+{
+ "date": "Nov 15, 2026",
+ "generated": "2026-11-15T12:10:50+00:00",
+ "games": [
+  {
+   "away": "EDM",
+   "home": "PHI",
+   "team_proj": {
+    "EDM": {
+     "ev": 19.9,
+     "pp": 4.2,
+     "total": 24.1,
+     "pp_min": 5.4,
+     "trend": "flat"
+    },
+    "PHI": {
+     "ev": 20.7,
+     "pp": 4.0,
+     "total": 24.7,
+     "pp_min": 5.4,
+     "trend": "flat"
+    }
+   },
+   "players": [
+    {
+     "player": "Leon Draisaitl",
+     "team": "EDM",
+     "lam": 3.59,
+     "probs": {
+      "1+": 0.972,
+      "2+": 0.873,
+      "3+": 0.695,
+      "4+": 0.483,
+      "5+": 0.292
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Connor McDavid",
+     "team": "EDM",
+     "lam": 2.56,
+     "probs": {
+      "1+": 0.923,
+      "2+": 0.725,
+      "3+": 0.471,
+      "4+": 0.255,
+      "5+": 0.117
+     },
+     "trend": "flat",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Evan Bouchard",
+     "team": "EDM",
+     "lam": 2.2,
+     "probs": {
+      "1+": 0.89,
+      "2+": 0.646,
+      "3+": 0.378,
+      "4+": 0.181,
+      "5+": 0.073
+     },
+     "trend": "down",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Owen Tippett",
+     "team": "PHI",
+     "lam": 2.1,
+     "probs": {
+      "1+": 0.877,
+      "2+": 0.62,
+      "3+": 0.35,
+      "4+": 0.161,
+      "5+": 0.062
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Trevor Zegras",
+     "team": "PHI",
+     "lam": 2.08,
+     "probs": {
+      "1+": 0.875,
+      "2+": 0.615,
+      "3+": 0.345,
+      "4+": 0.158,
+      "5+": 0.06
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Tyson Foerster",
+     "team": "PHI",
+     "lam": 1.95,
+     "probs": {
+      "1+": 0.858,
+      "2+": 0.58,
+      "3+": 0.31,
+      "4+": 0.134,
+      "5+": 0.048
+     },
+     "trend": "down",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Travis Konecny",
+     "team": "PHI",
+     "lam": 1.92,
+     "probs": {
+      "1+": 0.853,
+      "2+": 0.572,
+      "3+": 0.302,
+      "4+": 0.129,
+      "5+": 0.046
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Zach Hyman",
+     "team": "EDM",
+     "lam": 1.87,
+     "probs": {
+      "1+": 0.846,
+      "2+": 0.558,
+      "3+": 0.289,
+      "4+": 0.12,
+      "5+": 0.042
+     },
+     "trend": "flat",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Colton Dach",
+     "team": "EDM",
+     "lam": 1.83,
+     "probs": {
+      "1+": 0.84,
+      "2+": 0.547,
+      "3+": 0.279,
+      "4+": 0.114,
+      "5+": 0.039
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Vasily Podkolzin",
+     "team": "EDM",
+     "lam": 1.74,
+     "probs": {
+      "1+": 0.824,
+      "2+": 0.518,
+      "3+": 0.252,
+      "4+": 0.099,
+      "5+": 0.032
+     },
+     "trend": "flat",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Travis Sanheim",
+     "team": "PHI",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.792,
+      "2+": 0.466,
+      "3+": 0.209,
+      "4+": 0.075,
+      "5+": 0.022
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Michael Bunting",
+     "team": "PHI",
+     "lam": 1.54,
+     "probs": {
+      "1+": 0.786,
+      "2+": 0.456,
+      "3+": 0.201,
+      "4+": 0.071,
+      "5+": 0.021
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Porter Martone",
+     "team": "PHI",
+     "lam": 1.53,
+     "probs": {
+      "1+": 0.783,
+      "2+": 0.451,
+      "3+": 0.198,
+      "4+": 0.069,
+      "5+": 0.02
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Ryan Nugent-Hopkins",
+     "team": "EDM",
+     "lam": 1.51,
+     "probs": {
+      "1+": 0.78,
+      "2+": 0.447,
+      "3+": 0.195,
+      "4+": 0.067,
+      "5+": 0.019
+     },
+     "trend": "down",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Christian Dvorak",
+     "team": "PHI",
+     "lam": 1.45,
+     "probs": {
+      "1+": 0.765,
+      "2+": 0.425,
+      "3+": 0.179,
+      "4+": 0.06,
+      "5+": 0.016
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Matvei Michkov",
+     "team": "PHI",
+     "lam": 1.39,
+     "probs": {
+      "1+": 0.752,
+      "2+": 0.406,
+      "3+": 0.165,
+      "4+": 0.053,
+      "5+": 0.014
+     },
+     "trend": "down",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Jamie Drysdale",
+     "team": "PHI",
+     "lam": 1.38,
+     "probs": {
+      "1+": 0.748,
+      "2+": 0.4,
+      "3+": 0.161,
+      "4+": 0.051,
+      "5+": 0.013
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Rasmus Ristolainen",
+     "team": "PHI",
+     "lam": 1.36,
+     "probs": {
+      "1+": 0.745,
+      "2+": 0.396,
+      "3+": 0.158,
+      "4+": 0.05,
+      "5+": 0.013
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Kasperi Kapanen",
+     "team": "EDM",
+     "lam": 1.19,
+     "probs": {
+      "1+": 0.695,
+      "2+": 0.333,
+      "3+": 0.118,
+      "4+": 0.033,
+      "5+": 0.007
+     },
+     "trend": "flat",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Mattias Ekholm",
+     "team": "EDM",
+     "lam": 1.16,
+     "probs": {
+      "1+": 0.687,
+      "2+": 0.323,
+      "3+": 0.112,
+      "4+": 0.031,
+      "5+": 0.007
+     },
+     "trend": "flat",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Denver Barkey",
+     "team": "PHI",
+     "lam": 1.16,
+     "probs": {
+      "1+": 0.686,
+      "2+": 0.322,
+      "3+": 0.111,
+      "4+": 0.03,
+      "5+": 0.007
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Sean Couturier",
+     "team": "PHI",
+     "lam": 1.15,
+     "probs": {
+      "1+": 0.683,
+      "2+": 0.318,
+      "3+": 0.109,
+      "4+": 0.029,
+      "5+": 0.006
+     },
+     "trend": "down",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Noel Acciari",
+     "team": "PHI",
+     "lam": 1.15,
+     "probs": {
+      "1+": 0.682,
+      "2+": 0.317,
+      "3+": 0.109,
+      "4+": 0.029,
+      "5+": 0.006
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Connor Murphy",
+     "team": "EDM",
+     "lam": 1.12,
+     "probs": {
+      "1+": 0.674,
+      "2+": 0.308,
+      "3+": 0.104,
+      "4+": 0.027,
+      "5+": 0.006
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Noah Cates",
+     "team": "PHI",
+     "lam": 1.05,
+     "probs": {
+      "1+": 0.65,
+      "2+": 0.283,
+      "3+": 0.09,
+      "4+": 0.022,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Cam York",
+     "team": "PHI",
+     "lam": 1.04,
+     "probs": {
+      "1+": 0.646,
+      "2+": 0.278,
+      "3+": 0.087,
+      "4+": 0.021,
+      "5+": 0.004
+     },
+     "trend": "flat",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Oliver Bonk",
+     "team": "PHI",
+     "lam": 1.03,
+     "probs": {
+      "1+": 0.644,
+      "2+": 0.276,
+      "3+": 0.086,
+      "4+": 0.021,
+      "5+": 0.004
+     },
+     "trend": "down",
+     "opp": "EDM",
+     "home": true
+    },
+    {
+     "player": "Trent Frederic",
+     "team": "EDM",
+     "lam": 0.99,
+     "probs": {
+      "1+": 0.63,
+      "2+": 0.262,
+      "3+": 0.079,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Alex Formenton",
+     "team": "EDM",
+     "lam": 0.95,
+     "probs": {
+      "1+": 0.614,
+      "2+": 0.247,
+      "3+": 0.072,
+      "4+": 0.016,
+      "5+": 0.003
+     },
+     "trend": "down",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Jason Dickinson",
+     "team": "EDM",
+     "lam": 0.94,
+     "probs": {
+      "1+": 0.609,
+      "2+": 0.241,
+      "3+": 0.069,
+      "4+": 0.015,
+      "5+": 0.003
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Mathieu Joseph",
+     "team": "EDM",
+     "lam": 0.81,
+     "probs": {
+      "1+": 0.556,
+      "2+": 0.196,
+      "3+": 0.049,
+      "4+": 0.01,
+      "5+": 0.002
+     },
+     "trend": "down",
+     "opp": "PHI",
+     "home": false
+    },
+    {
+     "player": "Ty Emberson",
+     "team": "EDM",
+     "lam": 0.81,
+     "probs": {
+      "1+": 0.556,
+      "2+": 0.196,
+      "3+": 0.049,
+      "4+": 0.01,
+      "5+": 0.002
+     },
+     "trend": "up",
+     "opp": "PHI",
+     "home": false
+    }
+   ]
+  },
+  {
+   "away": "FLA",
+   "home": "DAL",
+   "team_proj": {
+    "FLA": {
+     "ev": 18.8,
+     "pp": 5.6,
+     "total": 24.4,
+     "pp_min": 6.8,
+     "trend": "flat"
+    },
+    "DAL": {
+     "ev": 20.9,
+     "pp": 4.9,
+     "total": 25.8,
+     "pp_min": 5.7,
+     "trend": "up"
+    }
+   },
+   "players": [
+    {
+     "player": "Jason Robertson",
+     "team": "DAL",
+     "lam": 3.19,
+     "probs": {
+      "1+": 0.959,
+      "2+": 0.827,
+      "3+": 0.618,
+      "4+": 0.395,
+      "5+": 0.217
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Brady Tkachuk",
+     "team": "FLA",
+     "lam": 2.99,
+     "probs": {
+      "1+": 0.95,
+      "2+": 0.799,
+      "3+": 0.575,
+      "4+": 0.351,
+      "5+": 0.183
+     },
+     "trend": "up",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Wyatt Johnston",
+     "team": "DAL",
+     "lam": 2.7,
+     "probs": {
+      "1+": 0.933,
+      "2+": 0.752,
+      "3+": 0.507,
+      "4+": 0.287,
+      "5+": 0.138
+     },
+     "trend": "flat",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Sam Reinhart",
+     "team": "FLA",
+     "lam": 2.57,
+     "probs": {
+      "1+": 0.924,
+      "2+": 0.727,
+      "3+": 0.475,
+      "4+": 0.258,
+      "5+": 0.119
+     },
+     "trend": "flat",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Tyler Seguin",
+     "team": "DAL",
+     "lam": 2.34,
+     "probs": {
+      "1+": 0.904,
+      "2+": 0.679,
+      "3+": 0.416,
+      "4+": 0.21,
+      "5+": 0.089
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Sam Bennett",
+     "team": "FLA",
+     "lam": 2.01,
+     "probs": {
+      "1+": 0.866,
+      "2+": 0.597,
+      "3+": 0.327,
+      "4+": 0.145,
+      "5+": 0.054
+     },
+     "trend": "flat",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Roope Hintz",
+     "team": "DAL",
+     "lam": 1.99,
+     "probs": {
+      "1+": 0.864,
+      "2+": 0.592,
+      "3+": 0.322,
+      "4+": 0.142,
+      "5+": 0.052
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Anton Lundell",
+     "team": "FLA",
+     "lam": 1.97,
+     "probs": {
+      "1+": 0.86,
+      "2+": 0.585,
+      "3+": 0.315,
+      "4+": 0.137,
+      "5+": 0.05
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Carter Verhaeghe",
+     "team": "FLA",
+     "lam": 1.91,
+     "probs": {
+      "1+": 0.851,
+      "2+": 0.568,
+      "3+": 0.298,
+      "4+": 0.126,
+      "5+": 0.045
+     },
+     "trend": "up",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Seth Jones",
+     "team": "FLA",
+     "lam": 1.82,
+     "probs": {
+      "1+": 0.838,
+      "2+": 0.543,
+      "3+": 0.275,
+      "4+": 0.112,
+      "5+": 0.038
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Mikko Rantanen",
+     "team": "DAL",
+     "lam": 1.81,
+     "probs": {
+      "1+": 0.837,
+      "2+": 0.541,
+      "3+": 0.273,
+      "4+": 0.111,
+      "5+": 0.037
+     },
+     "trend": "down",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "David Perron",
+     "team": "DAL",
+     "lam": 1.8,
+     "probs": {
+      "1+": 0.835,
+      "2+": 0.538,
+      "3+": 0.27,
+      "4+": 0.109,
+      "5+": 0.037
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Matthew Tkachuk",
+     "team": "FLA",
+     "lam": 1.73,
+     "probs": {
+      "1+": 0.823,
+      "2+": 0.517,
+      "3+": 0.252,
+      "4+": 0.098,
+      "5+": 0.032
+     },
+     "trend": "flat",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Thomas Harley",
+     "team": "DAL",
+     "lam": 1.69,
+     "probs": {
+      "1+": 0.816,
+      "2+": 0.505,
+      "3+": 0.241,
+      "4+": 0.092,
+      "5+": 0.029
+     },
+     "trend": "flat",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Arttu Hyry",
+     "team": "DAL",
+     "lam": 1.52,
+     "probs": {
+      "1+": 0.781,
+      "2+": 0.448,
+      "3+": 0.195,
+      "4+": 0.068,
+      "5+": 0.019
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Jamie Benn",
+     "team": "DAL",
+     "lam": 1.35,
+     "probs": {
+      "1+": 0.742,
+      "2+": 0.392,
+      "3+": 0.155,
+      "4+": 0.049,
+      "5+": 0.012
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Gustav Forsling",
+     "team": "FLA",
+     "lam": 1.22,
+     "probs": {
+      "1+": 0.704,
+      "2+": 0.343,
+      "3+": 0.124,
+      "4+": 0.035,
+      "5+": 0.008
+     },
+     "trend": "up",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Justin Hryckowian",
+     "team": "DAL",
+     "lam": 1.17,
+     "probs": {
+      "1+": 0.691,
+      "2+": 0.328,
+      "3+": 0.115,
+      "4+": 0.032,
+      "5+": 0.007
+     },
+     "trend": "flat",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Esa Lindell",
+     "team": "DAL",
+     "lam": 1.13,
+     "probs": {
+      "1+": 0.676,
+      "2+": 0.311,
+      "3+": 0.105,
+      "4+": 0.028,
+      "5+": 0.006
+     },
+     "trend": "up",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Sandis Vilmanis",
+     "team": "FLA",
+     "lam": 1.12,
+     "probs": {
+      "1+": 0.673,
+      "2+": 0.307,
+      "3+": 0.103,
+      "4+": 0.027,
+      "5+": 0.006
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Aaron Ekblad",
+     "team": "FLA",
+     "lam": 1.01,
+     "probs": {
+      "1+": 0.636,
+      "2+": 0.268,
+      "3+": 0.082,
+      "4+": 0.02,
+      "5+": 0.004
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Niko Mikkola",
+     "team": "FLA",
+     "lam": 1.0,
+     "probs": {
+      "1+": 0.634,
+      "2+": 0.266,
+      "3+": 0.081,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Radko Gudas",
+     "team": "FLA",
+     "lam": 0.99,
+     "probs": {
+      "1+": 0.63,
+      "2+": 0.262,
+      "3+": 0.079,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Lars Eller",
+     "team": "FLA",
+     "lam": 0.97,
+     "probs": {
+      "1+": 0.621,
+      "2+": 0.254,
+      "3+": 0.075,
+      "4+": 0.017,
+      "5+": 0.003
+     },
+     "trend": "up",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Radek Faksa",
+     "team": "DAL",
+     "lam": 0.97,
+     "probs": {
+      "1+": 0.62,
+      "2+": 0.252,
+      "3+": 0.074,
+      "4+": 0.017,
+      "5+": 0.003
+     },
+     "trend": "flat",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Eetu Luostarinen",
+     "team": "FLA",
+     "lam": 0.89,
+     "probs": {
+      "1+": 0.589,
+      "2+": 0.223,
+      "3+": 0.061,
+      "4+": 0.013,
+      "5+": 0.002
+     },
+     "trend": "down",
+     "opp": "DAL",
+     "home": false
+    },
+    {
+     "player": "Joel Kiviranta",
+     "team": "DAL",
+     "lam": 0.83,
+     "probs": {
+      "1+": 0.562,
+      "2+": 0.201,
+      "3+": 0.051,
+      "4+": 0.01,
+      "5+": 0.002
+     },
+     "trend": "down",
+     "opp": "FLA",
+     "home": true
+    },
+    {
+     "player": "Sam Steel",
+     "team": "DAL",
+     "lam": 0.81,
+     "probs": {
+      "1+": 0.553,
+      "2+": 0.193,
+      "3+": 0.048,
+      "4+": 0.009,
+      "5+": 0.001
+     },
+     "trend": "down",
+     "opp": "FLA",
+     "home": true
+    }
+   ]
+  },
+  {
+   "away": "CGY",
+   "home": "ANA",
+   "team_proj": {
+    "CGY": {
+     "ev": 22.3,
+     "pp": 3.5,
+     "total": 25.7,
+     "pp_min": 5.0,
+     "trend": "flat"
+    },
+    "ANA": {
+     "ev": 22.7,
+     "pp": 4.3,
+     "total": 27.1,
+     "pp_min": 5.6,
+     "trend": "flat"
+    }
+   },
+   "players": [
+    {
+     "player": "Cutter Gauthier",
+     "team": "ANA",
+     "lam": 4.25,
+     "probs": {
+      "1+": 0.986,
+      "2+": 0.925,
+      "3+": 0.796,
+      "4+": 0.614,
+      "5+": 0.42
+     },
+     "trend": "flat",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Beckett Sennecke",
+     "team": "ANA",
+     "lam": 2.54,
+     "probs": {
+      "1+": 0.921,
+      "2+": 0.72,
+      "3+": 0.466,
+      "4+": 0.25,
+      "5+": 0.114
+     },
+     "trend": "flat",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Joel Farabee",
+     "team": "CGY",
+     "lam": 2.53,
+     "probs": {
+      "1+": 0.92,
+      "2+": 0.719,
+      "3+": 0.464,
+      "4+": 0.249,
+      "5+": 0.113
+     },
+     "trend": "up",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Matvei Gridin",
+     "team": "CGY",
+     "lam": 2.13,
+     "probs": {
+      "1+": 0.881,
+      "2+": 0.628,
+      "3+": 0.359,
+      "4+": 0.167,
+      "5+": 0.065
+     },
+     "trend": "flat",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Matt Coronato",
+     "team": "CGY",
+     "lam": 2.1,
+     "probs": {
+      "1+": 0.877,
+      "2+": 0.619,
+      "3+": 0.349,
+      "4+": 0.16,
+      "5+": 0.062
+     },
+     "trend": "flat",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Mikael Backlund",
+     "team": "CGY",
+     "lam": 2.01,
+     "probs": {
+      "1+": 0.866,
+      "2+": 0.597,
+      "3+": 0.327,
+      "4+": 0.145,
+      "5+": 0.054
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Ryan Strome",
+     "team": "CGY",
+     "lam": 1.91,
+     "probs": {
+      "1+": 0.852,
+      "2+": 0.568,
+      "3+": 0.298,
+      "4+": 0.127,
+      "5+": 0.045
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Mikael Granlund",
+     "team": "ANA",
+     "lam": 1.85,
+     "probs": {
+      "1+": 0.843,
+      "2+": 0.553,
+      "3+": 0.283,
+      "4+": 0.117,
+      "5+": 0.04
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Zayne Parekh",
+     "team": "CGY",
+     "lam": 1.83,
+     "probs": {
+      "1+": 0.84,
+      "2+": 0.546,
+      "3+": 0.277,
+      "4+": 0.114,
+      "5+": 0.039
+     },
+     "trend": "up",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Leo Carlsson",
+     "team": "ANA",
+     "lam": 1.81,
+     "probs": {
+      "1+": 0.836,
+      "2+": 0.54,
+      "3+": 0.272,
+      "4+": 0.11,
+      "5+": 0.037
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Morgan Frost",
+     "team": "CGY",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.792,
+      "2+": 0.465,
+      "3+": 0.208,
+      "4+": 0.074,
+      "5+": 0.022
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Jeff Malott",
+     "team": "ANA",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.792,
+      "2+": 0.465,
+      "3+": 0.209,
+      "4+": 0.075,
+      "5+": 0.022
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Adam Klapka",
+     "team": "CGY",
+     "lam": 1.53,
+     "probs": {
+      "1+": 0.784,
+      "2+": 0.454,
+      "3+": 0.2,
+      "4+": 0.07,
+      "5+": 0.02
+     },
+     "trend": "flat",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Simon Nemec",
+     "team": "CGY",
+     "lam": 1.52,
+     "probs": {
+      "1+": 0.782,
+      "2+": 0.45,
+      "3+": 0.197,
+      "4+": 0.069,
+      "5+": 0.02
+     },
+     "trend": "up",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Tristan Luneau",
+     "team": "ANA",
+     "lam": 1.49,
+     "probs": {
+      "1+": 0.774,
+      "2+": 0.438,
+      "3+": 0.188,
+      "4+": 0.064,
+      "5+": 0.018
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Aydar Suniev",
+     "team": "CGY",
+     "lam": 1.36,
+     "probs": {
+      "1+": 0.743,
+      "2+": 0.394,
+      "3+": 0.157,
+      "4+": 0.049,
+      "5+": 0.013
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Sam Colangelo",
+     "team": "ANA",
+     "lam": 1.36,
+     "probs": {
+      "1+": 0.742,
+      "2+": 0.393,
+      "3+": 0.156,
+      "4+": 0.049,
+      "5+": 0.013
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Roger McQueen",
+     "team": "ANA",
+     "lam": 1.36,
+     "probs": {
+      "1+": 0.743,
+      "2+": 0.394,
+      "3+": 0.157,
+      "4+": 0.049,
+      "5+": 0.013
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Tyson Hinds",
+     "team": "ANA",
+     "lam": 1.35,
+     "probs": {
+      "1+": 0.741,
+      "2+": 0.391,
+      "3+": 0.155,
+      "4+": 0.048,
+      "5+": 0.012
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Drew Helleson",
+     "team": "ANA",
+     "lam": 1.33,
+     "probs": {
+      "1+": 0.737,
+      "2+": 0.385,
+      "3+": 0.151,
+      "4+": 0.047,
+      "5+": 0.012
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Martin Pospisil",
+     "team": "CGY",
+     "lam": 1.32,
+     "probs": {
+      "1+": 0.732,
+      "2+": 0.379,
+      "3+": 0.147,
+      "4+": 0.045,
+      "5+": 0.011
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Judd Caulfield",
+     "team": "ANA",
+     "lam": 1.31,
+     "probs": {
+      "1+": 0.731,
+      "2+": 0.378,
+      "3+": 0.146,
+      "4+": 0.045,
+      "5+": 0.011
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Alex Killorn",
+     "team": "ANA",
+     "lam": 1.26,
+     "probs": {
+      "1+": 0.717,
+      "2+": 0.36,
+      "3+": 0.134,
+      "4+": 0.039,
+      "5+": 0.009
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Nikita Nesterenko",
+     "team": "ANA",
+     "lam": 1.26,
+     "probs": {
+      "1+": 0.716,
+      "2+": 0.358,
+      "3+": 0.133,
+      "4+": 0.039,
+      "5+": 0.009
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Yegor Sharangovich",
+     "team": "CGY",
+     "lam": 1.22,
+     "probs": {
+      "1+": 0.706,
+      "2+": 0.346,
+      "3+": 0.126,
+      "4+": 0.036,
+      "5+": 0.008
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Pavel Mintyukov",
+     "team": "ANA",
+     "lam": 1.16,
+     "probs": {
+      "1+": 0.688,
+      "2+": 0.324,
+      "3+": 0.113,
+      "4+": 0.031,
+      "5+": 0.007
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "William Stromgren",
+     "team": "CGY",
+     "lam": 1.14,
+     "probs": {
+      "1+": 0.679,
+      "2+": 0.314,
+      "3+": 0.107,
+      "4+": 0.029,
+      "5+": 0.006
+     },
+     "trend": "flat",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Jake Middleton",
+     "team": "CGY",
+     "lam": 1.04,
+     "probs": {
+      "1+": 0.647,
+      "2+": 0.279,
+      "3+": 0.088,
+      "4+": 0.022,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Yan Kuznetsov",
+     "team": "CGY",
+     "lam": 1.0,
+     "probs": {
+      "1+": 0.631,
+      "2+": 0.263,
+      "3+": 0.08,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "flat",
+     "opp": "ANA",
+     "home": false
+    },
+    {
+     "player": "Tim Washe",
+     "team": "ANA",
+     "lam": 0.97,
+     "probs": {
+      "1+": 0.62,
+      "2+": 0.252,
+      "3+": 0.074,
+      "4+": 0.017,
+      "5+": 0.003
+     },
+     "trend": "down",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Jackson LaCombe",
+     "team": "ANA",
+     "lam": 0.87,
+     "probs": {
+      "1+": 0.582,
+      "2+": 0.218,
+      "3+": 0.058,
+      "4+": 0.012,
+      "5+": 0.002
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Noah Warren",
+     "team": "ANA",
+     "lam": 0.82,
+     "probs": {
+      "1+": 0.558,
+      "2+": 0.197,
+      "3+": 0.05,
+      "4+": 0.01,
+      "5+": 0.002
+     },
+     "trend": "up",
+     "opp": "CGY",
+     "home": true
+    },
+    {
+     "player": "Zach Whitecloud",
+     "team": "CGY",
+     "lam": 0.8,
+     "probs": {
+      "1+": 0.552,
+      "2+": 0.192,
+      "3+": 0.048,
+      "4+": 0.009,
+      "5+": 0.001
+     },
+     "trend": "down",
+     "opp": "ANA",
+     "home": false
+    }
+   ]
+  },
+  {
+   "away": "VAN",
+   "home": "VGK",
+   "team_proj": {
+    "VAN": {
+     "ev": 18.1,
+     "pp": 3.6,
+     "total": 21.6,
+     "pp_min": 5.3,
+     "trend": "flat"
+    },
+    "VGK": {
+     "ev": 24.3,
+     "pp": 4.8,
+     "total": 29.1,
+     "pp_min": 4.8,
+     "trend": "flat"
+    }
+   },
+   "players": [
+    {
+     "player": "Victor Olofsson",
+     "team": "VGK",
+     "lam": 2.71,
+     "probs": {
+      "1+": 0.934,
+      "2+": 0.754,
+      "3+": 0.509,
+      "4+": 0.289,
+      "5+": 0.139
+     },
+     "trend": "flat",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Jack Eichel",
+     "team": "VGK",
+     "lam": 2.61,
+     "probs": {
+      "1+": 0.926,
+      "2+": 0.734,
+      "3+": 0.483,
+      "4+": 0.265,
+      "5+": 0.123
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Tomas Hertl",
+     "team": "VGK",
+     "lam": 2.45,
+     "probs": {
+      "1+": 0.913,
+      "2+": 0.702,
+      "3+": 0.443,
+      "4+": 0.231,
+      "5+": 0.102
+     },
+     "trend": "flat",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Jake DeBrusk",
+     "team": "VAN",
+     "lam": 2.27,
+     "probs": {
+      "1+": 0.896,
+      "2+": 0.661,
+      "3+": 0.395,
+      "4+": 0.194,
+      "5+": 0.08
+     },
+     "trend": "flat",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Mitch Marner",
+     "team": "VGK",
+     "lam": 2.12,
+     "probs": {
+      "1+": 0.88,
+      "2+": 0.626,
+      "3+": 0.357,
+      "4+": 0.166,
+      "5+": 0.064
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Trevor Connelly",
+     "team": "VGK",
+     "lam": 1.97,
+     "probs": {
+      "1+": 0.86,
+      "2+": 0.585,
+      "3+": 0.314,
+      "4+": 0.137,
+      "5+": 0.05
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Marco Rossi",
+     "team": "VAN",
+     "lam": 1.82,
+     "probs": {
+      "1+": 0.839,
+      "2+": 0.544,
+      "3+": 0.276,
+      "4+": 0.113,
+      "5+": 0.038
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Filip Chytil",
+     "team": "VAN",
+     "lam": 1.8,
+     "probs": {
+      "1+": 0.835,
+      "2+": 0.537,
+      "3+": 0.269,
+      "4+": 0.109,
+      "5+": 0.036
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Mark Stone",
+     "team": "VGK",
+     "lam": 1.76,
+     "probs": {
+      "1+": 0.828,
+      "2+": 0.524,
+      "3+": 0.258,
+      "4+": 0.102,
+      "5+": 0.033
+     },
+     "trend": "down",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Rasmus Andersson",
+     "team": "VGK",
+     "lam": 1.75,
+     "probs": {
+      "1+": 0.827,
+      "2+": 0.523,
+      "3+": 0.257,
+      "4+": 0.101,
+      "5+": 0.033
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Jonathan Lekkerim\u00e4ki",
+     "team": "VAN",
+     "lam": 1.72,
+     "probs": {
+      "1+": 0.82,
+      "2+": 0.512,
+      "3+": 0.247,
+      "4+": 0.096,
+      "5+": 0.031
+     },
+     "trend": "flat",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Brett Howden",
+     "team": "VGK",
+     "lam": 1.72,
+     "probs": {
+      "1+": 0.822,
+      "2+": 0.514,
+      "3+": 0.249,
+      "4+": 0.097,
+      "5+": 0.031
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "William Karlsson",
+     "team": "VGK",
+     "lam": 1.7,
+     "probs": {
+      "1+": 0.818,
+      "2+": 0.508,
+      "3+": 0.244,
+      "4+": 0.094,
+      "5+": 0.03
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Linus Karlsson",
+     "team": "VAN",
+     "lam": 1.62,
+     "probs": {
+      "1+": 0.802,
+      "2+": 0.481,
+      "3+": 0.221,
+      "4+": 0.081,
+      "5+": 0.025
+     },
+     "trend": "flat",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Brock Boeser",
+     "team": "VAN",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.791,
+      "2+": 0.465,
+      "3+": 0.208,
+      "4+": 0.074,
+      "5+": 0.022
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Shea Theodore",
+     "team": "VGK",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.791,
+      "2+": 0.465,
+      "3+": 0.208,
+      "4+": 0.074,
+      "5+": 0.022
+     },
+     "trend": "down",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Dylan Coghlan",
+     "team": "VGK",
+     "lam": 1.57,
+     "probs": {
+      "1+": 0.792,
+      "2+": 0.465,
+      "3+": 0.208,
+      "4+": 0.074,
+      "5+": 0.022
+     },
+     "trend": "flat",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Ivan Barbashev",
+     "team": "VGK",
+     "lam": 1.46,
+     "probs": {
+      "1+": 0.769,
+      "2+": 0.43,
+      "3+": 0.182,
+      "4+": 0.061,
+      "5+": 0.017
+     },
+     "trend": "flat",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Braeden Bowman",
+     "team": "VGK",
+     "lam": 1.35,
+     "probs": {
+      "1+": 0.74,
+      "2+": 0.39,
+      "3+": 0.154,
+      "4+": 0.048,
+      "5+": 0.012
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Drew O'Connor",
+     "team": "VAN",
+     "lam": 1.34,
+     "probs": {
+      "1+": 0.737,
+      "2+": 0.386,
+      "3+": 0.151,
+      "4+": 0.047,
+      "5+": 0.012
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Marc Gatcomb",
+     "team": "VGK",
+     "lam": 1.34,
+     "probs": {
+      "1+": 0.737,
+      "2+": 0.386,
+      "3+": 0.151,
+      "4+": 0.047,
+      "5+": 0.012
+     },
+     "trend": "down",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Liam Ohgren",
+     "team": "VAN",
+     "lam": 1.33,
+     "probs": {
+      "1+": 0.735,
+      "2+": 0.383,
+      "3+": 0.15,
+      "4+": 0.046,
+      "5+": 0.012
+     },
+     "trend": "flat",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Brendan Gallagher",
+     "team": "VAN",
+     "lam": 1.26,
+     "probs": {
+      "1+": 0.716,
+      "2+": 0.359,
+      "3+": 0.134,
+      "4+": 0.039,
+      "5+": 0.009
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Brayden McNabb",
+     "team": "VGK",
+     "lam": 1.15,
+     "probs": {
+      "1+": 0.683,
+      "2+": 0.319,
+      "3+": 0.11,
+      "4+": 0.03,
+      "5+": 0.007
+     },
+     "trend": "flat",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Max Sasson",
+     "team": "VAN",
+     "lam": 1.12,
+     "probs": {
+      "1+": 0.672,
+      "2+": 0.307,
+      "3+": 0.103,
+      "4+": 0.027,
+      "5+": 0.006
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Jeremy Lauzon",
+     "team": "VGK",
+     "lam": 1.1,
+     "probs": {
+      "1+": 0.666,
+      "2+": 0.3,
+      "3+": 0.099,
+      "4+": 0.026,
+      "5+": 0.005
+     },
+     "trend": "down",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Elias Pettersson",
+     "team": "VAN",
+     "lam": 1.06,
+     "probs": {
+      "1+": 0.654,
+      "2+": 0.287,
+      "3+": 0.092,
+      "4+": 0.023,
+      "5+": 0.005
+     },
+     "trend": "down",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Parker Wotherspoon",
+     "team": "VGK",
+     "lam": 1.03,
+     "probs": {
+      "1+": 0.641,
+      "2+": 0.274,
+      "3+": 0.085,
+      "4+": 0.021,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "VAN",
+     "home": true
+    },
+    {
+     "player": "Filip Hronek",
+     "team": "VAN",
+     "lam": 1.0,
+     "probs": {
+      "1+": 0.632,
+      "2+": 0.264,
+      "3+": 0.08,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "down",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Tom Willander",
+     "team": "VAN",
+     "lam": 1.0,
+     "probs": {
+      "1+": 0.63,
+      "2+": 0.262,
+      "3+": 0.079,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Elias Pettersson",
+     "team": "VAN",
+     "lam": 0.91,
+     "probs": {
+      "1+": 0.599,
+      "2+": 0.232,
+      "3+": 0.065,
+      "4+": 0.014,
+      "5+": 0.002
+     },
+     "trend": "flat",
+     "opp": "VGK",
+     "home": false
+    },
+    {
+     "player": "Zeev Buium",
+     "team": "VAN",
+     "lam": 0.9,
+     "probs": {
+      "1+": 0.594,
+      "2+": 0.228,
+      "3+": 0.063,
+      "4+": 0.013,
+      "5+": 0.002
+     },
+     "trend": "up",
+     "opp": "VGK",
+     "home": false
+    }
+   ]
+  },
+  {
+   "away": "NSH",
+   "home": "SJS",
+   "team_proj": {
+    "NSH": {
+     "ev": 21.7,
+     "pp": 4.8,
+     "total": 26.5,
+     "pp_min": 5.9,
+     "trend": "flat"
+    },
+    "SJS": {
+     "ev": 24.0,
+     "pp": 4.2,
+     "total": 28.2,
+     "pp_min": 6.1,
+     "trend": "flat"
+    }
+   },
+   "players": [
+    {
+     "player": "Macklin Celebrini",
+     "team": "SJS",
+     "lam": 3.76,
+     "probs": {
+      "1+": 0.977,
+      "2+": 0.889,
+      "3+": 0.725,
+      "4+": 0.519,
+      "5+": 0.325
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Steven Stamkos",
+     "team": "NSH",
+     "lam": 2.46,
+     "probs": {
+      "1+": 0.914,
+      "2+": 0.704,
+      "3+": 0.446,
+      "4+": 0.234,
+      "5+": 0.103
+     },
+     "trend": "flat",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Roman Josi",
+     "team": "NSH",
+     "lam": 2.43,
+     "probs": {
+      "1+": 0.912,
+      "2+": 0.699,
+      "3+": 0.439,
+      "4+": 0.228,
+      "5+": 0.1
+     },
+     "trend": "down",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Filip Forsberg",
+     "team": "NSH",
+     "lam": 2.4,
+     "probs": {
+      "1+": 0.909,
+      "2+": 0.692,
+      "3+": 0.431,
+      "4+": 0.222,
+      "5+": 0.096
+     },
+     "trend": "flat",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Will Smith",
+     "team": "SJS",
+     "lam": 2.33,
+     "probs": {
+      "1+": 0.903,
+      "2+": 0.676,
+      "3+": 0.412,
+      "4+": 0.207,
+      "5+": 0.087
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Tyler Toffoli",
+     "team": "SJS",
+     "lam": 2.14,
+     "probs": {
+      "1+": 0.883,
+      "2+": 0.632,
+      "3+": 0.362,
+      "4+": 0.17,
+      "5+": 0.067
+     },
+     "trend": "flat",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Mavrik Bourque",
+     "team": "NSH",
+     "lam": 1.96,
+     "probs": {
+      "1+": 0.859,
+      "2+": 0.583,
+      "3+": 0.313,
+      "4+": 0.136,
+      "5+": 0.049
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Mason Marchment",
+     "team": "SJS",
+     "lam": 1.89,
+     "probs": {
+      "1+": 0.848,
+      "2+": 0.563,
+      "3+": 0.293,
+      "4+": 0.123,
+      "5+": 0.043
+     },
+     "trend": "flat",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Ivar Stenberg",
+     "team": "SJS",
+     "lam": 1.81,
+     "probs": {
+      "1+": 0.836,
+      "2+": 0.54,
+      "3+": 0.272,
+      "4+": 0.11,
+      "5+": 0.037
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Ross Colton",
+     "team": "NSH",
+     "lam": 1.73,
+     "probs": {
+      "1+": 0.823,
+      "2+": 0.517,
+      "3+": 0.251,
+      "4+": 0.098,
+      "5+": 0.032
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Ryan O'Reilly",
+     "team": "NSH",
+     "lam": 1.7,
+     "probs": {
+      "1+": 0.818,
+      "2+": 0.508,
+      "3+": 0.244,
+      "4+": 0.094,
+      "5+": 0.03
+     },
+     "trend": "flat",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Kiefer Sherwood",
+     "team": "SJS",
+     "lam": 1.68,
+     "probs": {
+      "1+": 0.813,
+      "2+": 0.499,
+      "3+": 0.236,
+      "4+": 0.09,
+      "5+": 0.028
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Shane Wright",
+     "team": "NSH",
+     "lam": 1.66,
+     "probs": {
+      "1+": 0.81,
+      "2+": 0.494,
+      "3+": 0.232,
+      "4+": 0.087,
+      "5+": 0.027
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Jacob Trouba",
+     "team": "SJS",
+     "lam": 1.64,
+     "probs": {
+      "1+": 0.806,
+      "2+": 0.488,
+      "3+": 0.227,
+      "4+": 0.085,
+      "5+": 0.026
+     },
+     "trend": "flat",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Darnell Nurse",
+     "team": "SJS",
+     "lam": 1.52,
+     "probs": {
+      "1+": 0.782,
+      "2+": 0.449,
+      "3+": 0.197,
+      "4+": 0.068,
+      "5+": 0.02
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Michael Kesselring",
+     "team": "SJS",
+     "lam": 1.5,
+     "probs": {
+      "1+": 0.776,
+      "2+": 0.441,
+      "3+": 0.19,
+      "4+": 0.065,
+      "5+": 0.018
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Michael Misa",
+     "team": "SJS",
+     "lam": 1.47,
+     "probs": {
+      "1+": 0.771,
+      "2+": 0.433,
+      "3+": 0.184,
+      "4+": 0.062,
+      "5+": 0.017
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Nils Hoglander",
+     "team": "NSH",
+     "lam": 1.46,
+     "probs": {
+      "1+": 0.768,
+      "2+": 0.43,
+      "3+": 0.182,
+      "4+": 0.061,
+      "5+": 0.017
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Adam Edstrom",
+     "team": "NSH",
+     "lam": 1.34,
+     "probs": {
+      "1+": 0.738,
+      "2+": 0.388,
+      "3+": 0.152,
+      "4+": 0.047,
+      "5+": 0.012
+     },
+     "trend": "down",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Vitali Pinchuk",
+     "team": "NSH",
+     "lam": 1.3,
+     "probs": {
+      "1+": 0.728,
+      "2+": 0.374,
+      "3+": 0.144,
+      "4+": 0.043,
+      "5+": 0.011
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Eric Pohlkamp",
+     "team": "SJS",
+     "lam": 1.28,
+     "probs": {
+      "1+": 0.723,
+      "2+": 0.368,
+      "3+": 0.139,
+      "4+": 0.042,
+      "5+": 0.01
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Adam Wilsby",
+     "team": "NSH",
+     "lam": 1.21,
+     "probs": {
+      "1+": 0.702,
+      "2+": 0.341,
+      "3+": 0.123,
+      "4+": 0.035,
+      "5+": 0.008
+     },
+     "trend": "flat",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Adam Gaudette",
+     "team": "SJS",
+     "lam": 1.19,
+     "probs": {
+      "1+": 0.695,
+      "2+": 0.333,
+      "3+": 0.118,
+      "4+": 0.033,
+      "5+": 0.007
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Ty Dellandrea",
+     "team": "SJS",
+     "lam": 1.18,
+     "probs": {
+      "1+": 0.694,
+      "2+": 0.332,
+      "3+": 0.117,
+      "4+": 0.032,
+      "5+": 0.007
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Zack Ostapchuk",
+     "team": "SJS",
+     "lam": 1.13,
+     "probs": {
+      "1+": 0.677,
+      "2+": 0.312,
+      "3+": 0.106,
+      "4+": 0.028,
+      "5+": 0.006
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Dmitry Orlov",
+     "team": "SJS",
+     "lam": 1.06,
+     "probs": {
+      "1+": 0.653,
+      "2+": 0.286,
+      "3+": 0.091,
+      "4+": 0.023,
+      "5+": 0.005
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Nick Perbix",
+     "team": "NSH",
+     "lam": 1.04,
+     "probs": {
+      "1+": 0.645,
+      "2+": 0.278,
+      "3+": 0.087,
+      "4+": 0.021,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Jack Drury",
+     "team": "NSH",
+     "lam": 1.03,
+     "probs": {
+      "1+": 0.642,
+      "2+": 0.275,
+      "3+": 0.086,
+      "4+": 0.021,
+      "5+": 0.004
+     },
+     "trend": "flat",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Reid Schaefer",
+     "team": "NSH",
+     "lam": 1.02,
+     "probs": {
+      "1+": 0.64,
+      "2+": 0.272,
+      "3+": 0.084,
+      "4+": 0.02,
+      "5+": 0.004
+     },
+     "trend": "down",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Brady Skjei",
+     "team": "NSH",
+     "lam": 1.01,
+     "probs": {
+      "1+": 0.634,
+      "2+": 0.266,
+      "3+": 0.081,
+      "4+": 0.019,
+      "5+": 0.004
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Collin Graf",
+     "team": "SJS",
+     "lam": 0.98,
+     "probs": {
+      "1+": 0.623,
+      "2+": 0.256,
+      "3+": 0.076,
+      "4+": 0.018,
+      "5+": 0.003
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Sam Dickinson",
+     "team": "SJS",
+     "lam": 0.92,
+     "probs": {
+      "1+": 0.603,
+      "2+": 0.237,
+      "3+": 0.067,
+      "4+": 0.015,
+      "5+": 0.003
+     },
+     "trend": "up",
+     "opp": "NSH",
+     "home": true
+    },
+    {
+     "player": "Alexander Kerfoot",
+     "team": "NSH",
+     "lam": 0.9,
+     "probs": {
+      "1+": 0.592,
+      "2+": 0.226,
+      "3+": 0.062,
+      "4+": 0.013,
+      "5+": 0.002
+     },
+     "trend": "down",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Daemon Hunt",
+     "team": "NSH",
+     "lam": 0.84,
+     "probs": {
+      "1+": 0.567,
+      "2+": 0.204,
+      "3+": 0.053,
+      "4+": 0.011,
+      "5+": 0.002
+     },
+     "trend": "up",
+     "opp": "SJS",
+     "home": false
+    },
+    {
+     "player": "Barclay Goodrow",
+     "team": "SJS",
+     "lam": 0.84,
+     "probs": {
+      "1+": 0.567,
+      "2+": 0.204,
+      "3+": 0.053,
+      "4+": 0.011,
+      "5+": 0.002
+     },
+     "trend": "down",
+     "opp": "NSH",
+     "home": true
+    }
+   ]
+  }
+ ]
+}
