@@ -47,10 +47,16 @@ jobs:
           git diff --cached --quiet || git commit -m "Save predictions for $(date -u +%F)"
           git push
 
+      # Data for the Track record page. If this ever fails, the rest of the site still publishes.
+      - name: Build track record
+        continue-on-error: true
+        run: python backtest.py --json track_record.json --history history --out ""
+
       - name: Assemble site
         run: |
           mkdir site
-          cp index.html predictions.json site/
+          cp index.html track.html predictions.json site/
+          cp track_record.json site/ || true
 
       - uses: actions/configure-pages@v5
 
