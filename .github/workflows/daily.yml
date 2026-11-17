@@ -57,6 +57,7 @@ jobs:
           mkdir site
           cp index.html track.html predictions.json site/
           cp track_record.json site/ || true
+          cp calibration.json site/ || true
 
       - uses: actions/configure-pages@v5
 
