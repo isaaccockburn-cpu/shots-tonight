@@ -32,7 +32,8 @@ select,input{font:inherit;color:var(--text);background:var(--surface);border:1px
 button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 .lbl{color:var(--muted);font-size:.9rem}
 .wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
-table.p{width:100%;border-collapse:collapse;min-width:720px}
+table.p{width:100%;border-collapse:collapse;min-width:860px}
+table.p.nocal{min-width:720px}.nocal .cal{display:none}
 .p th{text-align:left;font-weight:600;color:var(--muted);font-size:.85rem;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
 .p td{padding:10px 12px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
 .p tr:last-child td{border-bottom:0}
@@ -65,9 +66,9 @@ footer{color:var(--muted);font-size:.85rem;margin-top:16px}
   <input id="q" type="search" placeholder="Search player or team" aria-label="Search player or team">
 </div>
 <div class="wrap"><table class="p"><thead><tr>
-  <th>Player</th><th id="ph">Chance</th><th class="n" title="The chance expressed as American odds, with no sportsbook margin">Fair odds</th><th class="n">Expected shots</th><th class="n">Recent trend</th>
+  <th>Player</th><th id="ph">Chance</th><th class="n" title="The chance expressed as American odds, with no sportsbook margin">Fair odds</th><th class="n cal" title="How often players the model rated in this same percentage range actually reached the line, over past games">Tier hit rate</th><th class="n cal" title="The tier hit rate written as American odds, with no sportsbook margin">Tier odds</th><th class="n">Expected shots</th><th class="n">Recent trend</th>
 </tr></thead><tbody id="rows"></tbody></table></div>
-<footer>Method: team shots are projected from each side’s shot rate, the opponent’s shot suppression, and expected power-play minutes. Each player gets his share of those shots, and a Poisson model turns the expected number into probabilities. Trend compares a player’s last 5 games with his season average. Fair odds are the same chance written as American odds with no sportsbook margin, so a sportsbook’s price for the same outcome usually pays a bit less.</footer>
+<footer>Method: team shots are projected from each side’s shot rate, the opponent’s shot suppression, and expected power-play minutes. Each player gets his share of those shots, and a probability model that allows for streaky games turns the expected number into probabilities. Trend compares a player’s last 5 games with his season average. Fair odds are the same chance written as American odds with no sportsbook margin, so a sportsbook’s price for the same outcome usually pays a bit less. Tier hit rate is how often players the model rated in the same percentage range actually reached the line in past games, and Tier odds writes that rate as odds. It shows how far to trust the model’s number in that range, so where the two disagree, the tier figure is the better guide. Hover over a tier figure for the details.</footer>
 </main>
 <script>
 const SAMPLE={sample:true,date:"Sample slate",games:[
@@ -107,6 +108,18 @@ async function load(){
   try{const r=await fetch("predictions.json",{cache:"no-store"});if(r.ok){const j=await r.json();if(j&&j.games&&j.games.length)return j}}catch(e){}
   return SAMPLE;
 }
+let CAL=null;
+async function loadCal(){
+  try{const r=await fetch("calibration.json",{cache:"no-store"});if(r.ok){const j=await r.json();if(j&&j.tiers)return j}}catch(e){}
+  return null;
+}
+// The past hit rate for players the model rated in the same range as p, for this line.
+function tierFor(k,p){
+  if(!CAL)return null;
+  const bins=CAL.tiers[String(k)];if(!bins||!bins.length)return null;
+  const x=p*100;
+  return bins.find(b=>x>=b.lo&&(x<b.hi||b.hi>=100))||bins[bins.length-1];
+}
 
 function renderGames(){
   document.getElementById("games").innerHTML=data.games.map(g=>{
@@ -135,12 +148,15 @@ function renderRows(){
   });
   rows=rows.filter(r=>!q||(r.player+" "+r.team).toLowerCase().includes(q)).sort((a,b)=>b.pr[k]-a.pr[k]);
   const tb=document.getElementById("rows");
-  if(!rows.length){tb.innerHTML='<tr><td colspan="5" class="empty">No players match. Clear the search or pick another game.</td></tr>';return}
+  if(!rows.length){tb.innerHTML='<tr><td colspan="7" class="empty">No players match. Clear the search or pick another game.</td></tr>';return}
   tb.innerHTML=rows.map(r=>{
-    const pct=Math.round(r.pr[k]*100);
+    const pct=Math.round(r.pr[k]*100),t=tierFor(k,r.pr[k]);
+    const tip=t?`Players the model rated ${t.lo}-${t.hi}% for ${k}+ shots reached it ${Math.round(t.actual*100)}% of the time (${t.n.toLocaleString()} past players).`:"";
     return `<tr><td><div class="name">${esc(r.player)}</div><div class="opp">${esc(r.team)} ${r.home?"vs":"at"} ${esc(r.opp)}</div></td>
     <td><div class="bar" role="img" aria-label="${pct} percent"><i style="width:${pct}%"></i><span>${pct}%</span></div></td>
     <td class="n hit">${fmtOdds(r.pr[k])}</td>
+    <td class="n cal" title="${esc(tip)}">${t?Math.round(t.actual*100)+"%":"–"}</td>
+    <td class="n cal hit" title="${esc(tip)}">${t?fmtOdds(t.actual):"–"}</td>
     <td class="n">${r.lam.toFixed(1)}</td>
     <td class="n ${r.trend}">${ARROW[r.trend]||ARROW.flat}</td></tr>`;
   }).join("");
@@ -149,8 +165,9 @@ function renderRows(){
 document.getElementById("game").addEventListener("change",e=>{state.game=e.target.value;renderRows()});
 document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value;renderRows()});
 
-load().then(d=>{
-  data=d;
+Promise.all([load(),loadCal()]).then(([d,c])=>{
+  data=d;CAL=c;
+  document.querySelector("table.p").classList.toggle("nocal",!c);
   if(d.sample)document.getElementById("warn").hidden=false;
   if(d.date&&!d.sample)document.getElementById("date").textContent="Projected shots on goal for "+d.date+".";
   renderGames();renderControls();renderRows();
