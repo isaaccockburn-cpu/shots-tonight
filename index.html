@@ -15,6 +15,8 @@ body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 "Avenir Next
 main{max-width:980px;margin:0 auto;padding:20px 16px 48px}
 h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.05;margin:0 0 4px;letter-spacing:-.02em}
 .sub{color:var(--muted);margin:0 0 16px}
+.nav{margin:0 0 6px}.nav a{color:var(--blue);font-weight:600}
+.nav a:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 .warn{background:var(--warn-bg);color:var(--warn);padding:10px 12px;border-radius:6px;font-size:.9rem;margin-bottom:18px}
 .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:20px}
 .game{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
@@ -49,6 +51,7 @@ footer{color:var(--muted);font-size:.85rem;margin-top:16px}
 <body>
 <main>
 <h1>Shots Tonight</h1>
+<p class="nav"><a href="track.html">See the model’s track record</a></p>
 <p class="sub" id="date">Projected shots on goal for every NHL player in tonight’s games.</p>
 <div class="warn" id="warn" hidden>Sample data: these players and numbers are placeholders, not real projections.</div>
 <section class="games" id="games" aria-label="Game projections"></section>
